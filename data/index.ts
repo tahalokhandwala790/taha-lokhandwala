@@ -76,7 +76,8 @@ export const projects = [
     des: "Our soda is made with real fruit juice and a touch of cane sugar. We never use artificial sweeteners or high fructose corn syrup. Try all five flavors and find your favorite!",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg"],
-    link: "https://fizzi-tz.netlify.app/",
+    link: "",
+    // https://fizzi-tz.netlify.app/
   },
   {
     id: 2,
@@ -84,7 +85,8 @@ export const projects = [
     des: "Explore Clayout catalog, carefully selected to elevate your designs. From textures to patterns, discover the perfect elements to bring your vision to life",
     img: "/p2.svg",
     iconLists: [],
-    link: "https://tizawebcrafts-portfolio.my.canva.site/clayout-shitabi-faovur-catalog",
+    link: "",
+    // https://tizawebcrafts-portfolio.my.canva.site/clayout-shitabi-faovur-catalog
   },
   {
     id: 3,
@@ -92,7 +94,8 @@ export const projects = [
     des: "Elevate your brand presence with our stunning banner design, crafted to capture attention and leave a lasting impression",
     img: "/KID FAVOUR.svg",
     iconLists: [],
-    link: "https://tizawebcrafts-portfolio.my.canva.site/kid-favour",
+    link: "",
+    // https://tizawebcrafts-portfolio.my.canva.site/kid-favour
   },
   {
     id: 4,
@@ -100,7 +103,8 @@ export const projects = [
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://i-phone-clone-tz.netlify.app",
+    link: "",
+    // https://i-phone-clone-tz.netlify.app
   },
   {
     id: 5,
@@ -108,7 +112,8 @@ export const projects = [
     des: "Elevate your brand presence with our stunning banner design, crafted to capture attention and leave a lasting impression",
     img: "/Ramadan.svg",
     iconLists: [],
-    link: "https://ramadancollection.my.canva.site/",
+    link: "",
+    // https://ramadancollection.my.canva.site/
   },
 ];
 
