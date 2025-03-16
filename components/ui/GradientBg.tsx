@@ -33,6 +33,10 @@ export const BackgroundGradientAnimation = ({
   interactive?: boolean;
   containerClassName?: string;
 }) => {
+
+  const isBrowser = typeof window !== 'undefined'
+if (isBrowser) {
+
   const interactiveRef = useRef<HTMLDivElement>(null);
 
   const [curX, setCurX] = useState(0);
@@ -56,7 +60,7 @@ export const BackgroundGradientAnimation = ({
     document.body.style.setProperty("--pointer-color", pointerColor);
     document.body.style.setProperty("--size", size);
     document.body.style.setProperty("--blending-value", blendingValue);
-  }, []);
+  } , []);
 
   useEffect(() => {
     function move() {
@@ -178,4 +182,4 @@ export const BackgroundGradientAnimation = ({
       </div>
     </div>
   );
-};
+}};
