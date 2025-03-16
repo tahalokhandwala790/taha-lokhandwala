@@ -34,8 +34,6 @@ export const BackgroundGradientAnimation = ({
   containerClassName?: string;
 }) => {
 
-  const isBrowser = typeof window !== 'undefined'
-if (isBrowser) {
 
   const interactiveRef = useRef<HTMLDivElement>(null);
 
@@ -182,4 +180,4 @@ if (isBrowser) {
       </div>
     </div>
   );
-}};
+};
